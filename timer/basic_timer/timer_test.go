@@ -20,7 +20,7 @@ func (test *Test) MyTimerCallBack(timer *Timer, argObject interface{}) {
 	}
 }
 
-func TesTimer(t *testing.T) {T
+func TestTimer(t *testing.T) {
 	test := new(Test)
 	timer := Create()
 	timer.Init()
